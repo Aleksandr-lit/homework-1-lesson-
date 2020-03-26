@@ -1,0 +1,16 @@
+body {
+	background-color: #c4d0ce;
+}
+[type = button] {
+	font-size: 19px;
+	color: white;
+	background-color: blue;
+	border-radius: 25px;
+}
+li {
+	display: flex;
+    font-size: 20px;
+}
+form {
+	display: inline-grid;
+}

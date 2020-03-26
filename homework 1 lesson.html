@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HOMEWORK 1.1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="Module.js"></script>
+</head>
+<body>
+	<ul id="myUl"><li id="item1">Элемент 1</li><li id="item2">Элемент 2</li><li id="item3">Элемент 3</li><li id="item4">Элемент 4</li><li id="item5">Элемент 5</li></ul>
+	<form>
+		
+		<input type="button" value="Выбрать первый элемент" onclick="selectFirstChild()" />
+		<input type="button" value="Выбрать последний элемент" onclick="selectLastChild()" />
+		<input type="button" value="Выбрать следующий элемент" onclick="selectNextNode()" />
+		<input type="button" value="Выбрать предыдущий элемент" onclick="selectPrevNode()" />
+		<input type="button" value="Добавить элемент" onclick="append(this.form)" />
+		<input type="button" value="Удалить элемент" onclick="remove()" />
+		<input type="button" value="Добавить в начало" onclick="appendFirst(this.form)" />
+	</form>
+</body>
+</html>
